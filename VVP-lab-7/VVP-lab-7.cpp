@@ -54,7 +54,7 @@ int main() {
 	cout << "Задайте число B: "; cin >> Bb;
 	if (Aa != 0) {
 		xx = (-Bb) / Aa;
-		cout << "Ответ для Ax + B = 0: " << xx << endl;
+		cout << "Ответ для Ax + B = 0: x =  " << xx << endl;
 	}
 	else {
 		cout << "Введенные значения противоречат условию задачи!" << endl;
