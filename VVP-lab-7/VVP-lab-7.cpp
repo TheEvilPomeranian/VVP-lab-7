@@ -73,7 +73,12 @@ int main() {
 	D2 = A1 * C2 - A2 * C1;
 	if (D != 0) {
 		x = D1 / D;
-		y = D2 / D;
+		if (D2 == 0) {
+			y = abs(D2 / D);
+		}
+		else {
+			y = D2 / D;
+		}
 		cout << "x равен: " << x << endl;
 		cout << "y равен: " << y << endl;
 	}
